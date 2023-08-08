@@ -1,12 +1,14 @@
 import Header from "./Header.jsx";
-import Body from "./Body.jsx";
+import SignIn from "./pages/SignIn.jsx";
 import Footer from "./Footer.jsx";
 
 function App() {
   return (
     <>
       <Header />
-      <Body />
+      <main className="h-[calc(100vh-128px)]">
+        <SignIn />
+      </main>
       <Footer />
     </>
   );
