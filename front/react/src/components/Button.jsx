@@ -4,7 +4,7 @@ const Button = ({ children, ...props }) => {
   return (
     <button
       {...props}
-      className="text-base radius bg-lime-300 min-w-[128px] p-[16px]"
+      className="text-lg text-white font-semibold rounded-md bg-terrario min-w-[128px] p-[16px]"
     >
       {children}
     </button>

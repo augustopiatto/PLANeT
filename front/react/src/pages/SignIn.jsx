@@ -7,7 +7,7 @@ function SignIn() {
   const password = useForm();
 
   return (
-    <div className="grid gap-2">
+    <div className="grid gap-2 max-w-[640px] mx-auto">
       <Input label="E-mail ou usuário" type="text" name="email" {...email} />
       <Input label="Senha" type="password" name="senha" {...password} />
       <p>
