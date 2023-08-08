@@ -1,4 +1,4 @@
-# PlanetPlant (ou PLANeT?)
+# PLANeT
 
 ## Visão Geral do Projeto
 Utiliza React, Javascript para Web.
