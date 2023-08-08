@@ -1,14 +1,22 @@
+import Button from "../components/Button.jsx";
 import Input from "../components/Input.jsx";
+import useForm from "../hooks/useForm.jsx";
 
 function SignIn() {
+  const email = useForm();
+  const password = useForm();
+
   return (
-    <div className="">
-      <Input>E-mail ou usuário</Input>
-      <Input>Senha</Input>
+    <div className="grid gap-2">
+      <Input label="E-mail ou usuário" type="text" name="email" {...email} />
+      <Input label="Senha" type="password" name="senha" {...password} />
       <p>
-        Não possui cadastro? <a>Cadastre-se aqui</a>
+        Não possui cadastro?{" "}
+        <a href="" className="underline">
+          Cadastre-se aqui
+        </a>
       </p>
-      <button>Entrar</button>
+      <Button>Entrar</Button>
     </div>
   );
 }
