@@ -1,6 +1,15 @@
 import { PropTypes } from "prop-types";
 
-const Input = ({ label, name, type, value, onChange, error, onBlur }) => {
+const Input = ({
+  label,
+  name,
+  type,
+  value,
+  placeholder,
+  onChange,
+  error,
+  onBlur,
+}) => {
   return (
     <div className="grid grid-rows-2">
       <label htmlFor={name} className="text-base leading-9 block">
@@ -10,12 +19,15 @@ const Input = ({ label, name, type, value, onChange, error, onBlur }) => {
         id={name}
         name={name}
         type={type}
-        className="text-base border border-slate-300 px-[4px] py-[6px] rounded-md block w-full"
+        placeholder={placeholder}
+        className="text-base border-2 border-scale-100 px-[4px] py-[6px] rounded-md block w-full focus:scale-105 focus:outline-none focus:border-plant focus:shadow-emphasis"
         value={value}
         onChange={onChange}
         onBlur={onBlur}
       />
-      {error && <p className="text-sm text-red-500 font-semibold">{error}</p>}
+      <p className="h-[14px] text-sm text-red-500 font-semibold">
+        {error && error}
+      </p>
     </div>
   );
 };
@@ -26,6 +38,7 @@ Input.propTypes = {
   label: PropTypes.string,
   name: PropTypes.string,
   type: PropTypes.string,
+  placeholder: PropTypes.string,
   // value: PropTypes.string,
   // onChange: PropTypes.string,
   error: PropTypes.string,

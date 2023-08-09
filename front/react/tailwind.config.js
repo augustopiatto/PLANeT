@@ -4,12 +4,21 @@ export default {
   theme: {
     extend: {
       boxShadow: {
-        "md-up":
-          "0 -4px 6px -1px rgb(0, 0, 0, 0.1), 0 -2px 4px -2px rgb(0, 0, 0, 0.1)",
+        "dirt-md":
+          "0 4px 6px 2px rgb(84, 55, 11, 0.3), 0 2px 4px 4px rgb(84, 55, 11, 0.3)",
+        "dirt-md-up": "0 -4px 6px 2px rgb(84, 55, 11, 0.3)",
+        emphasis: "0 0 4px 0 rgb(88,181,56,0.8)",
       },
       backgroundImage: {
+        // verde: #58B538
+        // marrom: #54370B
         terrario:
           "linear-gradient(177deg, rgba(88,181,56,0.97) 0%, rgba(84,55,11,0.95) 95%)",
+      },
+      colors: {
+        plant: "rgba(88, 181, 56, 0.5)",
+        "clear-dirt": "rgba(84, 55, 11, 0.4)",
+        "clearer-dirt": "rgba(84, 55, 11, 0.2)",
       },
     },
   },

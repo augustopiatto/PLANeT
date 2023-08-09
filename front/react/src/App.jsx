@@ -2,7 +2,7 @@ import Header from "./Header.jsx";
 import SignIn from "./pages/SignIn.jsx";
 import Footer from "./Footer.jsx";
 
-function App() {
+const App = () => {
   return (
     <>
       <Header />
@@ -12,6 +12,6 @@ function App() {
       <Footer />
     </>
   );
-}
+};
 
 export default App;

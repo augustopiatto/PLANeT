@@ -1,6 +1,6 @@
 import Input from "../components/Input.jsx";
 
-function SignUp() {
+const SignUp = () => {
   return (
     <div className="">
       <Input>Nome de usuário</Input>
@@ -9,6 +9,6 @@ function SignUp() {
       <button>Criar conta</button>
     </div>
   );
-}
+};
 
 export default SignUp;
