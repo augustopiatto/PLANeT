@@ -7,7 +7,7 @@ const SignIn = () => {
   const password = useForm();
 
   return (
-    <div className="h-full grid content-center gap-1 max-w-[640px] mx-auto p-[16px]">
+    <div className="h-full grid content-center gap-1 max-w-[480px] mx-auto p-[16px]">
       <Input
         label="E-mail ou usuário"
         type="text"

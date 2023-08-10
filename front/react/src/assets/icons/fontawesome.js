@@ -4,6 +4,10 @@
 import { library } from "@fortawesome/fontawesome-svg-core";
 
 // solid
-import { faStar, faAnglesRight } from "@fortawesome/free-solid-svg-icons";
+import {
+  faStar,
+  faAnglesRight,
+  faUserTie,
+} from "@fortawesome/free-solid-svg-icons";
 
-library.add(faStar, faAnglesRight);
+library.add(faStar, faAnglesRight, faUserTie);
