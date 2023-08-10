@@ -6,7 +6,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <main className="h-[calc(100vh-128px)]">
+      <main className="h-[calc(100vh-128px)] bg-vine-background">
         <SignIn />
       </main>
       <Footer />

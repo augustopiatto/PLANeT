@@ -7,7 +7,7 @@ const SignIn = () => {
   const password = useForm();
 
   return (
-    <div className="h-full grid content-center gap-3 max-w-[640px] mx-auto p-[16px]">
+    <div className="h-full grid content-center gap-1 max-w-[640px] mx-auto p-[16px]">
       <Input
         label="E-mail ou usuário"
         type="text"
@@ -22,7 +22,7 @@ const SignIn = () => {
         placeholder="1 character maiúsculo, 1 minúsculo e 1 dígito. Com no mínimo 8 characteres"
         {...password}
       />
-      <p className="mt-[8px] mb-[24px]">
+      <p className="mt-[16px] mb-[32px]">
         Não possui cadastro?{" "}
         <a href="" className="underline">
           Cadastre-se aqui

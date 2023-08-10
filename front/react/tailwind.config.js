@@ -14,6 +14,9 @@ export default {
         // marrom: #54370B
         terrario:
           "linear-gradient(177deg, rgba(88,181,56,0.97) 0%, rgba(84,55,11,0.95) 95%)",
+        "vine-background":
+          "linear-gradient(rgba(255,255,255,0.98), rgba(255,255,255,0.98)), url(./src/assets/images/leaves.jpg)",
+        // linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("https://i.imgur.com/xnh5x47.jpg");
       },
       colors: {
         plant: "rgba(88, 181, 56, 0.5)",

@@ -3,7 +3,7 @@ import PlanetSvg from "./assets/svg/PlanetSvg.jsx";
 
 const Header = () => {
   return (
-    <div className="h-[64px] bg-clear-dirt grid grid-cols-10 content-center shadow-dirt-md">
+    <div className="h-[64px] bg-clear-dirt grid grid-cols-10 content-center shadow-dirt-md relative">
       <FontAwesomeIcon
         icon={["fas", "fa-angles-right"]}
         className="text-2xl px-[16px] cursor-pointer"
