@@ -1,4 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
 import PlanetSvg from "./assets/svg/PlanetSvg.jsx";
 
 const Header = () => {
@@ -13,7 +14,9 @@ const Header = () => {
         />
       </div> */}
       <div className="col-span-8 h-[40px] px-[24px] grid content-center justify-items-start">
-        <h1>PLANeT</h1>
+        <Link to="/">
+          <h1>PLANeT</h1>
+        </Link>
       </div>
       <PlanetSvg />
       <div className="h-[40px] grid content-center justify-items-center">
@@ -23,10 +26,12 @@ const Header = () => {
         />
       </div>
       <div className="h-[40px] w-[40px] rounded-full border-2 border-clear-dirt bg-slate-300 grid content-center justify-items-center">
-        <FontAwesomeIcon
-          icon={["fas", "fa-user-tie"]}
-          className="text-2xl cursor-pointer text-slate-500 fill-current"
-        />
+        <Link to="/signin">
+          <FontAwesomeIcon
+            icon={["fas", "fa-user-tie"]}
+            className="text-2xl cursor-pointer text-slate-500 fill-current"
+          />
+        </Link>
       </div>
     </div>
   );

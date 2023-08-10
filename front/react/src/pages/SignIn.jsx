@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Button from "../components/Button.jsx";
 import Input from "../components/Input.jsx";
 import useForm from "../hooks/useForm.jsx";
@@ -7,7 +8,7 @@ const SignIn = () => {
   const password = useForm();
 
   return (
-    <div className="h-full grid content-center gap-1 max-w-[480px] mx-auto p-[16px]">
+    <div className="section grid content-center gap-1 max-w-[480px] p-[16px]">
       <Input
         label="E-mail ou usuário"
         type="text"
@@ -24,9 +25,9 @@ const SignIn = () => {
       />
       <p className="mt-[16px] mb-[32px]">
         Não possui cadastro?{" "}
-        <a href="" className="underline">
+        <Link to="/signup" className="underline">
           Cadastre-se aqui
-        </a>
+        </Link>
       </p>
       <Button>Entrar</Button>
     </div>
