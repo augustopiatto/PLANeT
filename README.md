@@ -54,12 +54,20 @@ Para iniciar o projeto, siga os passos abaixo:
 ### Tecnologias  (Incompleto)
 O projeto inclui as seguintes tecnologias:
 
-- React e Flutter (android) para construir interfaces web de usuário reativas
-- JavaScript e Dart para desenvolvimento e escalabilidade
-- Tailwind para estilização de UI
-- Vite como bundler
-- ? para desenvolvimento de regras de negócio, validações e escalabilidade do código
-- Postgres para armazenamento de informações e consultas do backend
+1. Front:
+  a. Web:
+    - React para construir interfaces web de usuário reativas
+    - JavaScript para desenvolvimento e escalabilidade
+    - Tailwind para estilização de UI
+    - Vite como bundler
+    - React router DOM (https://reactrouter.com/en/main/start/overview)
+  b. Mobile:
+    -  Flutter (android) para construir interfaces web de usuário reativas
+    -  Dart para desenvolvimento e escalabilidade
+
+2. Back:
+   - ? para desenvolvimento de regras de negócio, validações e escalabilidade do código
+   - Postgres para armazenamento de informações e consultas do backend
 
 ### Funcionalidades (Incompleto)
 O projeto possui as seguintes funcionalidades:
